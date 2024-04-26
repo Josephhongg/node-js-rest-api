@@ -1,0 +1,43 @@
+{
+  "name": "intro-app-dev-2022-project-1-node-js-rest-api-josephhongg",
+  "version": "1.0.0",
+  "description": "intro-app-dev-2022-project-1-node-js-rest-api-Josephhongg created by GitHub Classroom",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write .",
+    "start": "node app.js",
+    "leagues:create": "node prisma/leaguesSeed.js",
+    "leagues:delete": "node prisma/leaguesSeed.js -d",
+    "clubs:create": "node prisma/clubsSeed.js",
+    "clubs:delete": "node prisma/clubsSeed.js -d",
+    "players:create": "node prisma/playersSeed.js",
+    "players:delete": "node prisma/playersSeed.js -d",
+    "stadiums:create": "node prisma/stadiumsSeed.js",
+    "stadiums:delete": "node prisma/stadiumsSeed.js -d",
+    "matches:create": "node prisma/matchesSeed.js",
+    "matches:delete": "node prisma/matchesSeed.js -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otago-polytechnic-bit-courses/intro-app-dev-2022-project-1-node-js-rest-api-Josephhongg.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/otago-polytechnic-bit-courses/intro-app-dev-2022-project-1-node-js-rest-api-Josephhongg/issues"
+  },
+  "homepage": "https://github.com/otago-polytechnic-bit-courses/intro-app-dev-2022-project-1-node-js-rest-api-Josephhongg#readme",
+  "dependencies": {
+    "@prisma/client": "^4.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-rate-limit": "^6.6.0"
+  },
+  "devDependencies": {
+    "prettier": "2.7.1",
+    "prisma": "^4.2.1"
+  }
+}
